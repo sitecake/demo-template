@@ -1,0 +1,265 @@
+/* Bootstrap styles can be listed with sc-content as a parent and Sitecake will display them as an option in the toolbar dropdown */
+
+.sc-content h1.text-xs-center,
+.sc-content h2.text-xs-center,
+.sc-content h3.text-xs-center,
+.sc-content h4.text-xs-center,
+.sc-content h5.text-xs-center,
+.sc-content h6.text-xs-center,
+.sc-content p.text-xs-center {}
+
+.sc-content h1.text-xs-left,
+.sc-content h2.text-xs-left,
+.sc-content h3.text-xs-left,
+.sc-content h4.text-xs-left,
+.sc-content h5.text-xs-left,
+.sc-content h6.text-xs-left,
+.sc-content p.text-xs-left {}
+
+.sc-content h1.text-xs-right,
+.sc-content h2.text-xs-right,
+.sc-content h3.text-xs-right,
+.sc-content h4.text-xs-right,
+.sc-content h5.text-xs-right,
+.sc-content h6.text-xs-right,
+.sc-content p.text-xs-right {}
+
+.sc-content h1.text-lowercase,
+.sc-content h2.text-lowercase,
+.sc-content h3.text-lowercase,
+.sc-content h4.text-lowercase,
+.sc-content h5.text-lowercase,
+.sc-content h6.text-lowercase,
+.sc-content p.text-lowercase {}
+
+.sc-content h1.text-uppercase,
+.sc-content h2.text-uppercase,
+.sc-content h3.text-uppercase,
+.sc-content h4.text-uppercase,
+.sc-content h5.text-uppercase,
+.sc-content h6.text-uppercase,
+.sc-content p.text-uppercase {}
+
+.sc-content h1.text-capitalize,
+.sc-content h2.text-capitalize,
+.sc-content h3.text-capitalize,
+.sc-content h4.text-capitalize,
+.sc-content h5.text-capitalize,
+.sc-content h6.text-capitalize,
+.sc-content p.text-capitalize {}
+
+.sc-content h1.text-muted,
+.sc-content h2.text-muted,
+.sc-content h3.text-muted,
+.sc-content h4.text-muted,
+.sc-content h5.text-muted,
+.sc-content h6.text-muted,
+.sc-content p.text-muted {}
+
+.sc-content h1.text-primary,
+.sc-content h2.text-primary,
+.sc-content h3.text-primary,
+.sc-content h4.text-primary,
+.sc-content h5.text-primary,
+.sc-content h6.text-primary,
+.sc-content p.text-primary {}
+
+.sc-content h1.display-1,
+.sc-content h2.display-1,
+.sc-content h3.display-1,
+.sc-content h4.display-1,
+.sc-content h5.display-1,
+.sc-content h6.display-1 {}
+
+.sc-content h1.display-2,
+.sc-content h2.display-2,
+.sc-content h3.display-2,
+.sc-content h4.display-2,
+.sc-content h5.display-2,
+.sc-content h6.display-2 {}
+
+.sc-content h1.display-3,
+.sc-content h2.display-3,
+.sc-content h3.display-3,
+.sc-content h4.display-3,
+.sc-content h5.display-3,
+.sc-content h6.display-3 {}
+
+.sc-content h1.display-4,
+.sc-content h2.display-4,
+.sc-content h3.display-4,
+.sc-content h4.display-4,
+.sc-content h5.display-4,
+.sc-content h6.display-4 {}
+
+.sc-content p.lead {}
+
+.sc-content p.small {}
+
+.sc-content ul.list-unstyled {}
+
+.sc-content ul.list-inline {}
+
+.sc-content img.img-fluid {}
+
+.sc-content img.img-rounded {}
+
+.sc-content img.img-circle {}
+
+.sc-content img.img-thumbnail {}
+
+.sc-content img.pull-xs-left {}
+
+.sc-content img.pull-xs-right {}
+
+
+/* Additional styles created for this template */
+
+.sc-content p.underline {
+    text-decoration: underline;
+}
+
+.sc-content p.strikethroug {
+    text-decoration: line-through;
+}
+
+.sc-content p.blockquote {
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    border-left: .25rem solid #eceeef;
+}
+
+.sc-content p.blockquote em,
+.sc-content p.blockquote.reverse em {
+    display: block;
+    font-size: 80%;
+    line-height: 1.5;
+    color: #818a91;
+    font-weight: normal;
+}
+
+.sc-content p.blockquote.reverse {
+    padding-right: 1rem;
+    padding-left: 0;
+    text-align: right;
+    border-right: .25rem solid #eceeef;
+    border-left: 0;
+}
+
+.sc-content p.code {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    font-size: 90%;
+    color: #373a3c;
+    background-color: #f7f7f9;
+    border-radius: .25rem;
+}
+
+.sc-content p.alert-info {
+    padding: 15px;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bcdff1;
+}
+
+
+/**************** Template layout  **************/
+
+body {
+    padding: 0 0 4rem;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    color: #5a5959;
+    /*    border-top: 3px solid #61cae9;*/
+}
+
+.pageheader {
+    padding: 3rem 2rem;
+    margin-bottom: 3rem;
+    background-color: #ECECEC;
+    background-color: #0086d0;
+}
+
+.altbgr {
+    background-color: #ECECEC;
+}
+
+.row {
+    padding: 3rem;
+    ;
+}
+
+.sidebar {
+    padding-right: 3rem;
+}
+
+.sc-content>h2:not(:first-child) {
+    margin-top: 3rem
+}
+
+.sc-content>h3 {
+    margin-top: 1.5rem
+}
+
+.sc-content ul.list-inline li:not(:last-child) {
+    margin-right: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+.pageheader h1,
+.pageheader h2,
+.pageheader h3,
+.pageheader h4,
+.pageheader h5,
+.pageheader h6 {
+    font-weight: 700;
+    color: white;
+}
+
+.pageheader p {
+    color: #b8efff;
+}
+
+@media (min-width:544px) {
+    .bd-title {
+        font-size: 3rem
+    }
+    .bd-title+p {
+        font-size: 1.25rem;
+        font-weight: 300
+    }
+}
+
+
+/* Sitecake toolbar dropdown UI fix */
+
+.GN3KFNTBKN {
+    height: 30px !important;
+}
+
+
+/* Navigation */
+
+.navigation {
+    list-style: none;
+    margin: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.navigation li a {}
