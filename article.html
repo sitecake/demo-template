@@ -25,29 +25,6 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script type="text/javascript">
-        (function (e, t) {
-            function r(e, t) {
-                e[t] = function () {
-                    e.push([t].concat(Array.prototype.slice.call(arguments, 0)));
-                };
-            }
-            var n = "JacoRecorder";
-            (function (e, t, i, s) {
-                if (!i.__VERSION) {
-                    e[n] = i;
-                    var o = ["init", "identify", "startRecording", "stopRecording", "removeUserTracking", "setUserInfo"];
-                    for (var u = 0; u < o.length; u++) r(i, o[u]);
-                    i.__VERSION = .9, i.__INIT_TIME = 1 * new Date;
-                    var a = t.createElement("script");
-                    a.async = !0, a.setAttribute("crossorigin", "anonymous"), a.src = s;
-                    var f = t.getElementsByTagName("head")[0];
-                    f.appendChild(a);
-                }
-            })(e, t, e[n] || [], "//recorder-assets.getjaco.com/recorder.js");
-        }).call(window, window, document), window.JacoRecorder.push(["init", "de125860-47b2-4e8e-a5b8-4af522df9268", {}]);
-    </script>
-
 </head>
 
 
@@ -99,7 +76,19 @@
                 </ul>
                 <img src="images/page-manager.png" alt="">
                 <p> </p>
-                <p>NOTE: Page manager is accessed when you press P key on the keyboard while editing the website. Exit with ESC. In final release we will add toolbar button for it. </p>
+                <p>NOTE: Page manager is accessed when you press P key or hit toolbar button with three boxes. </p>
+            </div>
+        </div>
+        <!-- //row -->
+
+
+        <div class="row altbgr">
+            <div class="col-md-3 col-md-push-9 sidebar sc-content">
+
+            </div>
+            <div class="col-xs-12 col-md-9 col-md-pull-3 sc-content">
+                <h3>Simple Blog</h3>
+
                 <p>Indirectly, page manager update enables Sitecake as a static cms to become a light blogging engine. A blogging engine for a static, flat-file, html blog. And static websites bring some new things on the plate:</p>
                 <ul>
                     <li>
@@ -115,31 +104,12 @@
                         <br>
                     </li>
                 </ul>
-                <p>I will create a separate blog post to elaborate on static websites and a cms for static websites topic. </p>
-            </div>
-        </div>
-        <!-- //row -->
 
-
-        <div class="row altbgr">
-            <div class="col-md-3 col-md-push-9 sidebar sc-content">
-
-            </div>
-            <div class="col-xs-12 col-md-9 col-md-pull-3 sc-content">
-                <h3>Simple Blog</h3>
                 <p>So, right now you can create a home page and a blog article page and then use page manager to clone the article page for each new post. Link new articles from main menu or any on page list and you have your blog.</p>
-                <p class="code">
-                    &lt;ul&gt;
-                    <br> &lt;li&gt;&lt;a href=""&gt;Home&lt;/a&gt;&lt;/li&gt;
-                    <br> &lt;li&gt;&lt;a class="" href="/about.html"&gt;About&lt;/a&gt;&lt;/li&gt;
-                    <br> &lt;li&gt;&lt;a class="" href="/portfolio.html"&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-                    <br> &lt;li&gt;&lt;a class="" href="/contact.html"&gt;Contact&lt;/a&gt;&lt;/li&gt;
-                    <br> &lt;/ul&gt;
-                </p>
-                <p><strong>There is an option to customize that HTML to whatever you want to use, just that I will leave that for another post. </strong></p>
+                <p></p>
+                <p></p>
                 <img src="images/settings.png" alt="">
                 <p>Basic on-page SEO</p>
-                <p> </p>
             </div>
         </div>
         <!-- //row -->
