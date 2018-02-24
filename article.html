@@ -15,14 +15,15 @@
     <link href="css/sitecake.css" rel="stylesheet">
 
     <!--Lato font from Google Fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic' rel='stylesheet'
+          type='text/css'>
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
@@ -30,125 +31,130 @@
 
 <body>
 
+<div class="container">
+    <ul class="navigation sc-nav">
+        <li><a class="nav-item" href="./" title="Home">Home</a></li>
+        <li><a class="nav-item" href="article.html" title="Page Manager">Page Manager</a></li>
+        <li><a class="nav-item" href="default.html" title="Default Article">Default Article</a></li>
+    </ul>
+</div>
+
+<div class="pageheader">
     <div class="container">
-        <ul class="navigation sc-nav">
-            <li><a class="nav-item" href="./" title="Home">Home</a></li>
-            <li><a class="nav-item" href="article.html" title="Page Manager">Page Manager</a></li>
-            <li><a class="nav-item" href="default.html" title="Default Article">Default Article</a></li>
-        </ul>
-    </div>
-
-    <div class="pageheader">
-        <div class="container">
-            <div class="row">
-                <div class="sc-content col-xs-9 sc-content">
-                    <h1>Page Manager</h1>
-                    <p class="lead">Now one can manage navigation, clone pages, delete pages, do basic on-site SEO and instantly see how the page looks in Google snippet. </p>
-                </div>
-                <div class="sc-content col-xs-3 sc-content">
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-
         <div class="row">
-            <div class="col-md-3 col-md-push-9 sidebar sc-content">
-
+            <div class="sc-content col-xs-9 sc-content">
+                <h1>Page Manager</h1>
+                <p class="lead">Now one can manage navigation, clone pages, delete pages, do basic on-site SEO and
+                    instantly see how the page looks in Google snippet. </p>
             </div>
-            <div class="col-xs-12 col-md-9 col-md-pull-3 sc-content">
-                <h3>What can page manager do?</h3>
-                <ul>
-                    <li>
-                        you can manage only one menu per website (it's possible to have more than one instance of it on the page, differently styled, for header and footer, but it's the same menu with the same links)
-                        <br>
-                    </li>
-                    <li>
-                        can add, reorder and delete menu items
-                        <br>
-                    </li>
-                    <li>
-                        can clone existing pages, delete pages, set index (home) page
-                        <br>
-                    </li>
-                    <li>can do basic on page SEO, change page URL, title and meta description, and review all of that in wysiwyg Google search results snippet</li>
-                </ul>
-                <img src="images/page-manager.png" alt="">
-                <p> </p>
-                <p>NOTE: Page manager is accessed when you press P key or hit toolbar button with three boxes. </p>
+            <div class="sc-content col-xs-3 sc-content">
+
             </div>
         </div>
-        <!-- //row -->
-
-
-        <div class="row altbgr">
-            <div class="col-md-3 col-md-push-9 sidebar sc-content">
-
-            </div>
-            <div class="col-xs-12 col-md-9 col-md-pull-3 sc-content">
-                <h3>Simple Blog</h3>
-
-                <p>Indirectly, page manager update enables Sitecake as a static cms to become a light blogging engine. A blogging engine for a static, flat-file, html blog. And static websites bring some new things on the plate:</p>
-                <ul>
-                    <li>
-                        speed (no database, no PHP, only web server that serves HTML page)
-                        <br>
-                    </li>
-                    <li>
-                        with the speed, better ranking with Google and other search engines
-                        <br>
-                    </li>
-                    <li>
-                        enhanced security (it's a static website, nothing to hack)
-                        <br>
-                    </li>
-                </ul>
-
-                <p>So, right now you can create a home page and a blog article page and then use page manager to clone the article page for each new post. Link new articles from main menu or any on page list and you have your blog.</p>
-                <p></p>
-                <img src="images/settings.png" alt="">
-                <p>Basic on-page SEO</p>
-            </div>
-        </div>
-        <!-- //row -->
-
-
-        <div class="row">
-            <div class="col-md-3 col-md-push-9 sidebar sc-content">
-
-            </div>
-            <div class="col-xs-12 col-md-9 col-md-pull-3 sc-content">
-                <p>&nbsp;</p>
-            </div>
-        </div>
-        <!-- //row -->
-
     </div>
-    <!-- //container -->
+</div>
+<div class="container">
 
-    <!-- Sitecake admin pass autofill -->
-    <script type="text/javascript">
-        setTimeout(function () {
-            if (window.sitecakeGlobals && sitecakeGlobals.editMode === false) {
-                var toolbar = null,
-                    elements = null;
-                do {
-                    toolbar = document.getElementById('sitecake-toolbox');
-                    if (toolbar) {
-                        elements = toolbar.getElementsByTagName("input");
-                    }
-                }
-                while (elements.length == 0)
+    <div class="row">
+        <div class="col-md-3 col-md-push-9 sidebar sc-content">
+
+        </div>
+        <div class="col-xs-12 col-md-9 col-md-pull-3 sc-content">
+            <h3>What can page manager do?</h3>
+            <ul>
+                <li>
+                    you can manage only one menu per website (it's possible to have more than one instance of it on the
+                    page, differently styled, for header and footer, but it's the same menu with the same links)
+                    <br>
+                </li>
+                <li>
+                    can add, reorder and delete menu items
+                    <br>
+                </li>
+                <li>
+                    can clone existing pages, delete pages, set index (home) page
+                    <br>
+                </li>
+                <li>can do basic on page SEO, change page URL, title and meta description, and review all of that in
+                    wysiwyg Google search results snippet
+                </li>
+            </ul>
+            <img src="images/page-manager.png" alt="">
+            <p> </p>
+            <p>NOTE: Page manager is accessed when you press P key or hit toolbar button with three boxes. </p>
+        </div>
+    </div>
+    <!-- //row -->
+
+
+    <div class="row altbgr">
+        <div class="col-md-3 col-md-push-9 sidebar sc-content">
+
+        </div>
+        <div class="col-xs-12 col-md-9 col-md-pull-3 sc-content">
+            <h3>Simple Blog</h3>
+
+            <p>Indirectly, page manager update enables Sitecake as a static cms to become a light blogging engine. A
+                blogging engine for a static, flat-file, html blog. And static websites bring some new things on the
+                plate:</p>
+            <ul>
+                <li>
+                    speed (no database, no PHP, only web server that serves HTML page)
+                    <br>
+                </li>
+                <li>
+                    with the speed, better ranking with Google and other search engines
+                    <br>
+                </li>
+                <li>
+                    enhanced security (it's a static website, nothing to hack)
+                    <br>
+                </li>
+            </ul>
+
+            <p>So, right now you can create a home page and a blog article page and then use page manager to clone the
+                article page for each new post. Link new articles from main menu or any on page list and you have your
+                blog.</p>
+            <p></p>
+            <img src="images/settings.png" alt="">
+            <p>Basic on-page SEO</p>
+        </div>
+    </div>
+    <!-- //row -->
+
+
+    <div class="row">
+        <div class="col-md-3 col-md-push-9 sidebar sc-content">
+
+        </div>
+        <div class="col-xs-12 col-md-9 col-md-pull-3 sc-content">
+            <p>&nbsp;</p>
+        </div>
+    </div>
+    <!-- //row -->
+
+</div>
+<!-- //container -->
+
+<!-- Sitecake admin pass autofill -->
+<script type="text/javascript">
+    if (typeof window.sitecakeGlobals !== 'undefined' && sitecakeGlobals.editMode === false) {
+        var interval = setInterval(function () {
+            var elements = [],
+                toolbar = document.getElementById('sitecake-toolbox');
+            if (toolbar) {
+                clearInterval(interval);
+                elements = toolbar.getElementsByTagName("input");
                 for (var i = 0; i < elements.length; i++) {
-                    if (elements[i].type == 'password') {
+                    if (elements[i].type === 'password') {
                         elements[i].value = "admin";
                         break;
                     }
                 }
             }
         }, 2000);
-    </script>
+    }
+</script>
 </body>
 
 </html>
